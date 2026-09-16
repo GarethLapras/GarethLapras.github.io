@@ -1,44 +1,4 @@
-/* ============================================================
-   WORK LIST DATA
-   ------------------------------------------------------------
-   Add, remove or edit works here. Each object becomes one row
-   in the work list, and its own popup when clicked. Nothing
-   else in the site needs to change when you edit this file.
 
-   Fields:
-   id        unique short id, no spaces
-   title     work title
-   type      category. Use one of:
-               Digital art
-               Branding, merch & product
-               Music & band merch
-             (or your own — it becomes its own folder automatically)
-   client    who it was made for. Use "Personal work" if none.
-   year      four digit year.
-   role      what you actually did on it — e.g. "Modelling,
-             texturing, lighting" or "Illustration, lettering".
-             Free text, list as many or as few as apply.
-   desc      1-3 sentences about the piece
-   img       path to the image file, relative to index.html.
-             If a post has just one image, use this.
-   images    optional. Use THIS instead of img when a post has
-             more than one image (e.g. mockups, multiple angles).
-             It's just a list: images: ['path/one.jpg', 'path/two.jpg'].
-             The first one shown becomes the main image, and a
-             row of thumbnails appears underneath to click through
-             the rest. If both img and images are set, images wins.
-   vertical  true if the source image is a tall/portrait image
-   link      optional. External url (ArtStation, Instagram, etc).
-             Leave as '' if there isn't one.
-   linkLabel optional. Text shown on the link button, e.g.
-             'Band Instagram' or 'View on ArtStation'. If left
-             as '' it just says "View full project".
-   video     optional. Path to a short video file to show under
-             the image in the popup (breakdowns, environment
-             flythroughs, etc). Leave as '' if there isn't one.
-             Keep this specific to the piece it belongs to —
-             don't reuse one video across multiple entries.
-   ============================================================ */
 
 window.SK_WORKS = [
   {
@@ -55,7 +15,7 @@ window.SK_WORKS = [
       'assets/works/branding-merch-product/BfA_Graphics.jpg',
       'assets/works/branding-merch-product/BfA_Single.jpg',
       'assets/works/branding-merch-product/BfA_Duo.jpg'
-    ],
+ ],
     vertical: false,
     link: '',
     linkLabel: '',
