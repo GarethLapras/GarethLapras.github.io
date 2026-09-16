@@ -1,4 +1,6 @@
-
+/* ============================================================
+   WORK LIST DATA
+   ============================================================ */
 
 window.SK_WORKS = [
   {
@@ -10,17 +12,9 @@ window.SK_WORKS = [
     role: 'Illustration, lettering, apparel design',
     desc: 'Commissioned t-shirt and merch design built around Isaiah 61:3, pairing botanical line art with a wildflower field illustration.',
     images: [
-      'assets/works/branding-merch-product/BfA_Concept.jpg',
-      'assets/works/branding-merch-product/BfA_Outline.jpg',
-      'assets/works/branding-merch-product/BfA_Graphics.jpg',
-      'assets/works/branding-merch-product/BfA_Single.jpg',
-      'assets/works/branding-merch-product/BfA_Duo.jpg'
- ],
-    vertical: false,
-    link: '',
-    linkLabel: '',
-    video: ''
-  },
+      'assets/works/branding-merch-product/beauty_ashes_0.jpg',
+      'assets/works/branding-merch-product/beauty_ashes_1.jpg'
+    ],
     vertical: false,
     link: '',
     linkLabel: '',
