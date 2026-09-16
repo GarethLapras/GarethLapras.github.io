@@ -53,7 +53,7 @@ window.SK_WORKS = [
   },
   {
     id: 'watering',
-    title: 'Watering',
+    title: 'Watering Garden',
     type: 'Digital art',
     client: 'Personal work',
     year: '2025',
